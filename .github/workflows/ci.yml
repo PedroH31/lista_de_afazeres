@@ -23,7 +23,21 @@ jobs:
     - name: Instalar dependências
       run: |
         pip install -r requirements.txt
+
     - name: Rodar flake8
       uses: py-actions/flake8@v1
       with:
         checkName: 'flake8_py3'
+
+    - name: Rodar testes automáticos
+      run: |
+        pip install pytest
+        pip install pytest-cov
+        pytest --cov=listadeafazeres --cov-report=xml
+
+    - name: Relatório codecov
+      env:
+        CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+      run: |
+        codecov
+
