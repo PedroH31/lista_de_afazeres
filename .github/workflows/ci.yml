@@ -17,8 +17,8 @@ jobs:
     - name: Set up Python 3.11.0
       uses: actions/setup-python@v3
       with:
-          python-version: '3.11.0'
-          cache: pip
+        python-version: '3.11.0'
+        cache: pip
 
     - name: Instalar dependências
       run: |
