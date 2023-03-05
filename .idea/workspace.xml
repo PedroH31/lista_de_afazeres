@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e60ac3c-15f5-4d4d-905f-39fe06b37c5f" name="Changes" comment="Integrado pipenv com o github actions, instalado flake8&#10;&#10;close #1, close #2" />
+    <list default="true" id="4e60ac3c-15f5-4d4d-905f-39fe06b37c5f" name="Changes" comment="instalado pytest-django, instalado codecov&#10;&#10;close #8, close #9">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/lista_de_afazeres.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lista_de_afazeres.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,10 +23,21 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="1" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/.flake8" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/.github/workflows/ci.yml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Dockerfile" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fly.toml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/listadeafazeres/base/tests/test_home.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/listadeafazeres/base/views.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/listadeafazeres/settings.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/listadeafazeres/urls.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/requirements.txt" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -33,13 +50,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/Pedro/PycharmProjects/lista_de_afazeres&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -70,7 +88,28 @@
       <option name="project" value="LOCAL" />
       <updated>1678017953710</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="configurado deploy automático&#10;&#10;close #4, close #6">
+      <created>1678022610306</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678022610306</updated>
+    </task>
+    <task id="LOCAL-00005" summary="instalado pytest-django, instalado codecov&#10;&#10;close #8, close #9">
+      <created>1678024479606</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678024479606</updated>
+    </task>
+    <task id="LOCAL-00006" summary="instalado pytest-django, instalado codecov&#10;&#10;close #8, close #9">
+      <created>1678024722768</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678024722768</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -86,6 +125,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Integrado pipenv com o github actions, instalado flake8&#10;&#10;close #1, close #2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Integrado pipenv com o github actions, instalado flake8&#10;&#10;close #1, close #2" />
+    <MESSAGE value="configurado deploy automático&#10;&#10;close #4, close #6" />
+    <MESSAGE value="instalado pytest-django, instalado codecov&#10;&#10;close #8, close #9" />
+    <option name="LAST_COMMIT_MESSAGE" value="instalado pytest-django, instalado codecov&#10;&#10;close #8, close #9" />
   </component>
 </project>

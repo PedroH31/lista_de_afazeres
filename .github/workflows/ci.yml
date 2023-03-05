@@ -29,15 +29,15 @@ jobs:
       with:
         checkName: 'flake8_py3'
 
-#    - name: Rodar testes automáticos
-#      run: |
-#        pip install pytest
-#        pip install pytest-cov
-#        pytest --cov=listadeafazeres --cov-report=xml
-#
-#    - name: Relatório codecov
-#      env:
-#        CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
-#      run: |
-#        codecov
+    - name: Rodar testes automáticos
+      run: |
+        pip install pytest
+        pip install pytest-cov
+        pytest --cov=listadeafazeres --cov-report=xml
+
+    - name: Relatório codecov
+      env:
+        CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+      run: |
+        codecov
 
