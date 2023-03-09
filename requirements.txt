@@ -5,3 +5,5 @@ pytest-django==4.5.2
 pytest-cov==4.0.0
 codecov==2.1.12
 python-decouple==3.8
+dj-database-url==1.2.0
+psycopg2-binary==2.9.5
