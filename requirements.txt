@@ -7,3 +7,4 @@ codecov==2.1.12
 python-decouple==3.8
 dj-database-url==1.2.0
 psycopg2-binary==2.9.5
+whitenoise==6.4.0

@@ -11,37 +11,53 @@ on:
 jobs:
   tests:
     runs-on: ubuntu-latest
+    env:
+      DATABASE_URL: postgres://afazeres:afazeres@localhost:5434/afazeres
+
+    services:
+      postgres:
+        image: postgres
+        env:
+          POSTGRES_PASSWORD: afazeres
+          POSTGRES_USER: afazeres
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+        ports:
+          - 5434:5432
 
     steps:
-    - uses: actions/checkout@v3
-    - name: Set up Python 3.11.0
-      uses: actions/setup-python@v3
-      with:
-        python-version: '3.11.0'
-        cache: pip
+      - uses: actions/checkout@v3
+      - name: Set up Python 3.11.0
+        uses: actions/setup-python@v3
+        with:
+          python-version: '3.11.0'
+          cache: pip
 
-    - name: Instalar dependências
-      run: |
-        pip install -r requirements.txt
+      - name: Instalar dependências
+        run: |
+          pip install -r requirements.txt
 
-    - name: Copiar configurações .env
-      run: |
-        cp contrib/env-sample .env
+      - name: Copiar configurações .env
+        run: |
+          cp contrib/env-sample .env
 
-    - name: Rodar flake8
-      uses: py-actions/flake8@v1
-      with:
-        checkName: 'flake8_py3'
+      - name: Rodar flake8
+        uses: py-actions/flake8@v1
+        with:
+          checkName: 'flake8_py3'
 
-    - name: Rodar testes automáticos
-      run: |
-        pip install pytest
-        pip install pytest-cov
-        pytest --cov=listadeafazeres --cov-report=xml
+      - name: Rodar testes automáticos
+        run: |
+          pip install pytest
+          pip install pytest-cov
+          pytest --cov=listadeafazeres --cov-report=xml
 
-    - name: Relatório codecov
-      env:
-        CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
-      run: |
-        codecov
+      - name: Relatório codecov
+        env:
+          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+        run: |
+          codecov
 
