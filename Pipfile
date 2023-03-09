@@ -13,6 +13,7 @@ codecov = "==2.1.12"
 python-decouple = "*"
 dj-database-url = "*"
 psycopg2-binary = "*"
+whitenoise = "*"
 
 [dev-packages]
 pytest-cov = "*"
