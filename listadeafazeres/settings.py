@@ -140,11 +140,9 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'mediafiles')
 
 AUTH_USER_MODEL = 'base.User'
 
-
-
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-#Configurações sentry-sdk
+# Configurações sentry-sdk
 
 SENTRY_DSN = config('SENTRY_DSN', default=None)
 
