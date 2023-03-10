@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e60ac3c-15f5-4d4d-905f-39fe06b37c5f" name="Changes" comment="customizada class User, customizada class UserManager&#10;&#10;close #18, close #19">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4e60ac3c-15f5-4d4d-905f-39fe06b37c5f" name="Changes" comment="Instalado django debug toolbar&#10;&#10;close #21">
       <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrib/env-sample" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/env-sample" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fly.toml" beforeDir="false" afterPath="$PROJECT_DIR$/fly.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/listadeafazeres/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/listadeafazeres/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/listadeafazeres/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/listadeafazeres/urls.py" afterDir="false" />
     </list>
@@ -178,7 +175,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678367472737</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Instalado django debug toolbar&#10;&#10;close #21">
+      <created>1678450738598</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1678450738598</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Instalado django debug toolbar&#10;&#10;close #21">
+      <created>1678450866123</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1678450866123</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -199,6 +210,7 @@
     <MESSAGE value="desacopladas variáveis com o python-decouple&#10;&#10;close #11" />
     <MESSAGE value="configurado endereço do banco de dados com o dj-database-url&#10;&#10;close #13" />
     <MESSAGE value="configurado whitenoise&#10;&#10;close #15" />
-    <option name="LAST_COMMIT_MESSAGE" value="configurado whitenoise&#10;&#10;close #15" />
+    <MESSAGE value="Instalado django debug toolbar&#10;&#10;close #21" />
+    <option name="LAST_COMMIT_MESSAGE" value="Instalado django debug toolbar&#10;&#10;close #21" />
   </component>
 </project>
