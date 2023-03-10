@@ -14,9 +14,11 @@ from functools import partial
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
+import sentry_sdk
 from decouple import config, Csv
 
 import dj_database_url
+from sentry_sdk.integrations.django import DjangoIntegration
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -139,3 +141,10 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'mediafiles')
 AUTH_USER_MODEL = 'base.User'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# Configurações sentry-sdk
+
+SENTRY_DSN = config('SENTRY_DSN', default=None)
+
+if SENTRY_DSN:
+    sentry_sdk.init(dsn=SENTRY_DSN, integrations=[DjangoIntegration()], traces_sample_rate=1.0, send_default_pii=True)

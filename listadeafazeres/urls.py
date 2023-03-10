@@ -19,13 +19,13 @@ from django.urls import path, include
 
 from listadeafazeres.base import views
 
-
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home, name='home'),
 ]
 
 if settings.DEBUG:
+    raise ValueError('ferrou kkkkkk')
     import debug_toolbar
     urlpatterns.append(
         path('__debug__/', include(debug_toolbar.urls))
