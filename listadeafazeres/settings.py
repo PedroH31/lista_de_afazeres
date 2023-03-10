@@ -127,4 +127,6 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'mediafiles')
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
+AUTH_USER_MODEL = 'base.User'
+
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
