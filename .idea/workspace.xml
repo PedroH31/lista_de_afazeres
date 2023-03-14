@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e60ac3c-15f5-4d4d-905f-39fe06b37c5f" name="Changes" comment="Instalado django debug toolbar&#10;&#10;close #21">
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/listadeafazeres/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/listadeafazeres/settings.py" afterDir="false" />
+    <list default="true" id="4e60ac3c-15f5-4d4d-905f-39fe06b37c5f" name="Changes" comment="configurado sentry-sdk&#10;&#10;close #23">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/listadeafazeres/base/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/listadeafazeres/base/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/listadeafazeres/base/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/listadeafazeres/base/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/listadeafazeres/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/listadeafazeres/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -51,12 +54,18 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/Pedro/PycharmProjects/lista_de_afazeres&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/Pedro/PycharmProjects/lista_de_afazeres/listadeafazeres/base/static&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/listadeafazeres/base/static" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Python tests in test_home.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="lista_de_afazeres" />
