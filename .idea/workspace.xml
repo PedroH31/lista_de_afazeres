@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e60ac3c-15f5-4d4d-905f-39fe06b37c5f" name="Changes" comment="Instalado django debug toolbar&#10;&#10;close #21">
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/listadeafazeres/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/listadeafazeres/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/listadeafazeres/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/listadeafazeres/urls.py" afterDir="false" />
-    </list>
+    <list default="true" id="4e60ac3c-15f5-4d4d-905f-39fe06b37c5f" name="Changes" comment="configurada landing page &#10;&#10;close #25" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +11,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -51,12 +47,18 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/Pedro/PycharmProjects/lista_de_afazeres&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/Pedro/PycharmProjects/lista_de_afazeres/listadeafazeres/base/static&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/listadeafazeres/base/static" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Python tests in test_home.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="lista_de_afazeres" />
@@ -189,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678450866123</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="configurada landing page &#10;&#10;close #25">
+      <created>1678805610014</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1678805610014</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -211,6 +220,7 @@
     <MESSAGE value="configurado endereço do banco de dados com o dj-database-url&#10;&#10;close #13" />
     <MESSAGE value="configurado whitenoise&#10;&#10;close #15" />
     <MESSAGE value="Instalado django debug toolbar&#10;&#10;close #21" />
-    <option name="LAST_COMMIT_MESSAGE" value="Instalado django debug toolbar&#10;&#10;close #21" />
+    <MESSAGE value="configurada landing page &#10;&#10;close #25" />
+    <option name="LAST_COMMIT_MESSAGE" value="configurada landing page &#10;&#10;close #25" />
   </component>
 </project>

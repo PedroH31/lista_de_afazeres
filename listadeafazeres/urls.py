@@ -17,15 +17,13 @@ from django.conf import settings
 from django.contrib import admin
 from django.urls import path, include
 
-from listadeafazeres.base import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.home, name='home'),
+    path('', include('listadeafazeres.base.urls')),
 ]
 
 if settings.DEBUG:
-    raise ValueError('ferrou kkkkkk')
     import debug_toolbar
     urlpatterns.append(
         path('__debug__/', include(debug_toolbar.urls))
