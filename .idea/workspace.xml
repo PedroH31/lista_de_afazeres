@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e60ac3c-15f5-4d4d-905f-39fe06b37c5f" name="Changes" comment="configurado sentry-sdk&#10;&#10;close #23">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/listadeafazeres/base/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/listadeafazeres/base/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/listadeafazeres/base/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/listadeafazeres/base/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/listadeafazeres/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/listadeafazeres/urls.py" afterDir="false" />
-    </list>
+    <list default="true" id="4e60ac3c-15f5-4d4d-905f-39fe06b37c5f" name="Changes" comment="configurada landing page &#10;&#10;close #25" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -198,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678450866123</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="configurada landing page &#10;&#10;close #25">
+      <created>1678805610014</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1678805610014</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -220,6 +220,7 @@
     <MESSAGE value="configurado endereço do banco de dados com o dj-database-url&#10;&#10;close #13" />
     <MESSAGE value="configurado whitenoise&#10;&#10;close #15" />
     <MESSAGE value="Instalado django debug toolbar&#10;&#10;close #21" />
-    <option name="LAST_COMMIT_MESSAGE" value="Instalado django debug toolbar&#10;&#10;close #21" />
+    <MESSAGE value="configurada landing page &#10;&#10;close #25" />
+    <option name="LAST_COMMIT_MESSAGE" value="configurada landing page &#10;&#10;close #25" />
   </component>
 </project>

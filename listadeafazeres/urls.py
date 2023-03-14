@@ -17,7 +17,6 @@ from django.conf import settings
 from django.contrib import admin
 from django.urls import path, include
 
-from listadeafazeres.base.views import home
 
 urlpatterns = [
     path('admin/', admin.site.urls),
